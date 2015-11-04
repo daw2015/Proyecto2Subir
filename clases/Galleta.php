@@ -17,7 +17,7 @@ class Galleta {
     }
     
     static function delete($nombre){
-        setcookie($nombre, "", time()-3600);
+        setcookie($nombre, null, time()-3600);
     }
     
 }
